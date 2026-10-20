@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: #612323;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            gap: 10px;
+        }
+
+        header {
+            background-color: #ccc673;
+            padding: 20px; 
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-weight: bold;
+            border: 1px solid;
+        }
+
+        nav {
+            background-color: #ccc673;
+            padding: 10px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid;
+        }
+
+        .main-content {
+            display: flex;
+            gap: 10px;
+            flex: 1;
+        }
+
+        article {
+            flex: 3;
+            background-color: #ccc673;
+            padding: 15px;
+            border: 1px solid #612323;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #612323;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #ccc673;
+            padding: 15px;
+            border: 1px solid #612323;
+        }
+
+        footer {
+            background-color: #ccc673;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #612323;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper" >
+        <header>
+            <img src="assets/img/syifa.jpeg" alt="syifa.jpeg" width="100px">
+            <p>Ini website saya</p>
+        </header>          
+
+            <nav>
+                nav
+            </nav>
+
+            <div class="main-content">
+                <article>
+                    article
+                    <section>sec</section>
+                    <section>sec</section>
+                    <section>sec</section>
+                </article>
+
+                <aside>
+                    aside
+                </aside>
+            </div>
+
+    </div>
+    <footer>
+        footer
+    </footer>
+</body>
+</html>
